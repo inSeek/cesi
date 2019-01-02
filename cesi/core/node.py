@@ -61,10 +61,10 @@ class Node:
 
     def get_process_logs(self, process_name):
         stdout_log_string = self.connection.supervisor.tailProcessStdoutLog(
-            process_name, 0, 500
+            process_name, 0, 1500
         )[0]
         stderr_log_string = self.connection.supervisor.tailProcessStderrLog(
-            process_name, 0, 500
+            process_name, 0, 1500
         )[0]
         logs = {
             "stdout": stdout_log_string.split("\n")[1:-1],
