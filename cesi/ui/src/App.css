@@ -37,7 +37,7 @@ body div.modal-dialog{
 
 body div.modal-dialog p{
   font-size: 12px;
-  bottom-margin: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 .container-fluid .card-body{
