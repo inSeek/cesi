@@ -30,3 +30,7 @@
     transform: rotate(360deg);
   }
 }
+
+body div.modal-dialog{
+  max-width:900px;
+}
